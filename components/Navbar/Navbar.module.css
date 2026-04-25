@@ -1,0 +1,55 @@
+.nav{
+height:110px;
+padding:0 72px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+background:#eef4e9;
+}
+
+.logo{
+width:64px;
+height:64px;
+background:#0d0d0d;
+color:#fff;
+font-size:42px;
+font-weight:800;
+border-radius:14px;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.logo span{
+color:#9CF15A;
+}
+
+.menu{
+display:flex;
+gap:56px;
+list-style:none;
+font-weight:700;
+font-size:15px;
+letter-spacing:.05em;
+}
+
+.cta{
+padding:18px 34px;
+background:white;
+border:2px solid #111;
+border-radius:60px;
+font-weight:700;
+display:flex;
+gap:14px;
+align-items:center;
+}
+
+.cta span{
+width:34px;
+height:34px;
+background:#A8F06A;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+}

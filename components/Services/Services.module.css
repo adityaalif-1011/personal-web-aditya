@@ -1,0 +1,94 @@
+.services{
+padding:120px 8%;
+background:#F8FBF2;
+}
+
+.top{
+display:flex;
+justify-content:space-between;
+align-items:flex-end;
+margin-bottom:90px;
+}
+
+.top h2{
+font-size:64px;
+line-height:1.1;
+font-weight:800;
+}
+
+.top button{
+padding:15px 28px;
+border-radius:50px;
+border:1px solid #111;
+background:white;
+}
+
+/* cards */
+
+.cards{
+display:grid;
+grid-template-columns:1fr 1.2fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.sideCard,
+.centerCard{
+border-radius:30px;
+padding:50px;
+text-align:center;
+position:relative;
+}
+
+.sideCard{
+background:white;
+border:2px dashed #bbb;
+}
+
+.centerCard{
+background:#ffffff;
+border:2px solid #111;
+transform:scale(1.05);
+box-shadow:0 15px 35px rgba(0,0,0,.06);
+}
+
+.icon,
+.iconMain{
+width:70px;
+height:70px;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+margin:0 auto 30px;
+font-size:28px;
+}
+
+.icon{
+background:#E7D8FF;
+}
+
+.iconMain{
+background:#A8F06A;
+}
+
+.cards h3{
+font-size:34px;
+margin-bottom:20px;
+}
+
+.cards p{
+font-size:18px;
+line-height:1.7;
+}
+
+/* fake dotted connector lines */
+.cards::before{
+content:"";
+position:absolute;
+left:25%;
+right:25%;
+margin-top:170px;
+border-top:2px dashed #bbb;
+z-index:0;
+}
