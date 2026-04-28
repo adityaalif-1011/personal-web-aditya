@@ -1,16 +1,26 @@
-:root{
---bg:#EEF6E5;
---lime:#A8F06A;
---purple:#D6C3FF;
---pink:#FFD8EC;
---navy:#355C7D;
---text:#111;
---radius:28px;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
-h1,h2,h3{
-font-family:var(--font-heading);
+
+html{
+scroll-behavior:smooth;
 }
 
 body{
-font-family:var(--font-body);
+font-family:Inter, sans-serif;
+background:#eef4e8;
+color:#111;
+overflow-x:hidden;
+}
+
+button{
+font-family:inherit;
+cursor:pointer;
+}
+
+img{
+display:block;
+max-width:100%;
 }

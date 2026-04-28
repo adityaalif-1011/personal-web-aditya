@@ -1,6 +1,6 @@
 import styles from "./Navbar.module.css";
 
-export default function Navbar() {
+export default function Navbar(){
 return(
 <nav className={styles.nav}>
 
@@ -9,12 +9,10 @@ A<span>.</span>
 </div>
 
 <ul className={styles.menu}>
-<li>ABOUT</li>
-<li>PROJECTS</li>
-<li>EXPERIENCE</li>
-<li>SKILLS</li>
-<li>BLOG</li>
-<li>CONTACT</li>
+<li>About</li>
+<li>Projects</li>
+<li>Skills</li>
+<li>Contact</li>
 </ul>
 
 <button className={styles.cta}>

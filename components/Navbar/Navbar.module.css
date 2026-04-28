@@ -1,55 +1,52 @@
 .nav{
-height:110px;
-padding:0 72px;
+position:fixed;
+top:14px;
+left:50%;
+transform:translateX(-50%);
+width:min(92%,1280px);
+height:78px;
+padding:0 34px;
 display:flex;
-align-items:center;
 justify-content:space-between;
-background:#eef4e9;
+align-items:center;
+background:rgba(255,255,255,.3);
+backdrop-filter:blur(22px);
+border-radius:26px;
+z-index:999;
 }
 
 .logo{
-width:64px;
-height:64px;
-background:#0d0d0d;
-color:#fff;
-font-size:42px;
-font-weight:800;
+width:52px;
+height:52px;
+background:#111;
 border-radius:14px;
 display:flex;
-align-items:center;
 justify-content:center;
+align-items:center;
+font-size:30px;
+font-weight:800;
+color:#fff;
 }
 
 .logo span{
-color:#9CF15A;
+color:#A8F06A;
 }
 
 .menu{
 display:flex;
-gap:56px;
+gap:38px;
 list-style:none;
 font-weight:700;
-font-size:15px;
-letter-spacing:.05em;
 }
 
 .cta{
-padding:18px 34px;
-background:white;
-border:2px solid #111;
-border-radius:60px;
-font-weight:700;
-display:flex;
-gap:14px;
-align-items:center;
+padding:14px 22px;
+border:none;
+border-radius:50px;
+background:rgba(255,255,255,.42);
 }
 
-.cta span{
-width:34px;
-height:34px;
-background:#A8F06A;
-border-radius:50%;
-display:flex;
-align-items:center;
-justify-content:center;
+@media(max-width:900px){
+.menu{display:none;}
+.nav{height:68px;}
 }

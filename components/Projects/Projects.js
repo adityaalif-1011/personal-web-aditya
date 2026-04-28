@@ -4,53 +4,26 @@ export default function Projects(){
 return(
 <section className={styles.projects}>
 
-<h2>
-Let&apos;s take a look at some
-of my featured projects
-</h2>
+<h2>Selected Projects</h2>
 
-<div className={styles.projectCard}>
-<div className={styles.info}>
-<span>FEATURED PROJECT</span>
-
+<div className={styles.project}>
+<div>
 <h3>Lokanesia</h3>
-
-<p>
-Tourism platform for local
-exploration and discovery.
-</p>
-
-<div className={styles.buttons}>
-<button>Live Demo</button>
-<button>Case Study</button>
+<p>Tourism platform</p>
 </div>
 
-</div>
-
-<div className={styles.preview}>
 <img src="/images/lokanesia.png"/>
 </div>
+
+
+<div className={styles.project}>
+<div>
+<h3>RSHP UNAIR</h3>
+<p>Healthcare platform</p>
 </div>
 
-
-
-<div className={styles.projectCardReverse}>
-
-<div className={styles.preview}>
 <img src="/images/rshp.png"/>
 </div>
-
-<div className={styles.info}>
-<h3>RSHP UNAIR</h3>
-
-<p>
-Health service platform with
-appointment features.
-</p>
-</div>
-
-</div>
-
 
 </section>
 )
