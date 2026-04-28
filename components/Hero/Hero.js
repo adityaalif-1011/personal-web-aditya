@@ -5,33 +5,32 @@ export default function Hero(){
 return(
 <section className={styles.hero}>
 
-<div className={styles.orb1}></div>
-<div className={styles.orb2}></div>
+<div className={styles.blob1}></div>
+<div className={styles.blob2}></div>
+
 
 <div className={styles.left}>
 
-<div className={styles.badge}>
-Hi, I&apos;m Aditya 👋
-</div>
+<p className={styles.badge}>
+Frontend Engineer
+</p>
 
 <h1 className={styles.title}>
-Build
-<span>Your</span>
-Digital
-Experience
+Building
+<span>Alive</span>
+Interfaces
 </h1>
 
-<p>
-Frontend Developer building modern
-digital experiences.
+<p className={styles.subtitle}>
+Code, motion and product thinking.
 </p>
 
 <div className={styles.actions}>
-<button className={styles.primary}>
-View Projects
+<button>
+View Work
 </button>
 
-<button className={styles.secondary}>
+<button className={styles.ghost}>
 Contact
 </button>
 </div>
@@ -39,31 +38,23 @@ Contact
 </div>
 
 
+
 <div className={styles.right}>
+
+<div className={styles.photoCard}>
+
+<div className={styles.glow}></div>
+
 <Image
 src="/images/aditya.png"
-fill
 alt="Aditya"
+fill
 priority
+className={styles.photo}
 />
+
 </div>
 
-<div className={styles.connector}></div>
-<div className={styles.greenStar}></div>
-<div className={styles.purpleFlower}></div>
-
-<div className={styles.squiggle}>
-<svg viewBox="0 0 180 70">
-<path
-d="M5 55 C18 5 35 5 48 55
-C61 5 78 5 91 55
-C104 5 121 5 134 55
-C147 5 164 5 175 55"
-stroke="#D8A8FF"
-strokeWidth="4"
-fill="none"
-/>
-</svg>
 </div>
 
 </section>
