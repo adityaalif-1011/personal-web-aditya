@@ -1,38 +1,118 @@
 import styles from "./BentoCards.module.css";
 
-export default function BentoCards(){
-return(
-<section className={styles.wrapper}>
-
-<div className={styles.waveWrap}>
-<div className={styles.waveTrack}>
-<span>✳ Next.js</span>
-<span>✳ Laravel</span>
-<span>✳ JavaScript</span>
-<span>✳ UI</span>
-<span>✳ Open Source</span>
-</div>
-</div>
-
+export default function BentoCards() {
+return (
+<section className={styles.section}>
 
 <div className={styles.grid}>
 
-<div>
-<span className={styles.label}>Featured</span>
-<h3>Frontend Engineering</h3>
-<p>Modern interfaces with performance in mind.</p>
+{/* Hero Card */}
+<div className={`${styles.card} ${styles.hero}`}>
+<div className={styles.orb}></div>
+
+<span className={styles.eyebrow}>
+About Me
+</span>
+
+<h2 className={styles.heroTitle}>
+Crafting Digital
+Experiences With
+Precision.
+</h2>
+
+<p className={styles.desc}>
+Frontend engineer focused on elegant interfaces,
+motion and performance.
+</p>
+
+<button className={styles.glassBtn}>
+More About Me →
+</button>
+
 </div>
 
-<div>
-<span className={styles.label}>Stack</span>
-<h3>Scalable Code</h3>
-<p>Clean architecture.</p>
+
+
+{/* Stack */}
+<div className={styles.card}>
+
+<span className={styles.eyebrow}>
+Tech Stack
+</span>
+
+<h3>
+Modern tools
+for modern web
+</h3>
+
+<div className={styles.tags}>
+<span>Next.js</span>
+<span>React</span>
+<span>Laravel</span>
+<span>UI</span>
 </div>
 
-<div>
-<span className={styles.label}>Building</span>
-<h3>Digital Products</h3>
-<p>Products with impact.</p>
+</div>
+
+
+
+{/* Focus */}
+<div className={styles.card}>
+
+<span className={styles.eyebrow}>
+Focus
+</span>
+
+<h3>
+Design Systems,
+Animation &
+Performance
+</h3>
+
+</div>
+
+
+
+{/* Experience */}
+<div className={styles.card}>
+
+<span className={styles.eyebrow}>
+Experience
+</span>
+
+<h3>
+2+ Years Building
+</h3>
+
+<div className={styles.graph}>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+</div>
+
+</div>
+
+
+
+{/* CTA */}
+<div className={`${styles.card} ${styles.wide}`}>
+
+<div className={styles.orbTwo}></div>
+
+<span className={styles.eyebrow}>
+Open For Work
+</span>
+
+<h3>
+Available for
+collaboration.
+</h3>
+
+<button className={styles.glassBtn}>
+Get in Touch →
+</button>
+
 </div>
 
 </div>
